@@ -1,0 +1,84 @@
+:root{
+    --mainColor :rgb(19, 134, 211);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    perspective: none;
+}
+.container{
+    background: url('https://static.vecteezy.com/ti/vecteur-libre/p1/2151553-noir-geometrique-noir-abstrait-fond-elegant-design-motif-gratuit-vectoriel.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 10PX 20PX;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16PX;
+    box-shadow: 0 5PX 10PX rgba(255, 255, 255,0.5);
+}
+
+.container .box h1{
+   font-size: 15PX;
+   font-weight: 400;
+   padding:     5PX;
+   color: var(--mainColor);
+}
+.container .box h1 p{
+    display: inline;
+    margin-right: 3PX;
+    color: #666;
+  
+ }
+ html{
+    background: url('https://www.picgaga.com/uploads/wallpaper/city-background-wallpapers/h8nauW5YztbJ-pink-aesthetic-city-scenery-4k-wallpapers.jpg');
+    background-size: cover;
+   
+   }
+
+   input{
+       position: relative;
+      top: 70PX;
+      width: 300PX;
+      padding: 15PX 10PX;
+      border-radius: 50PX;
+      font-size: 20PX;
+      color: #333;
+       left: 50%;
+       transform: translateX(-50%);
+       transition: all .3s;
+   }
+  input:focus{
+      overflow: hidden;
+      white-space: nowrap;
+      box-shadow: 0PX 3PX 6PX  var(--mainColor);
+  
+  }
+   button{
+    position: absolute;
+   top: 150PX;
+   width: 200PX;
+   padding: 0;
+ cursor: pointer;
+ padding: 15PX 10PX;
+   font-size: 20PX;
+   background-color: var(--mainColor);
+   color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius:16PX 0 16PX  ;
+    transition: all .3s ;
+}
+button:hover{
+    
+    color: var(--mainColor);
+    background-color: white;
+    border-radius: 3px;
+}
